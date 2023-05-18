@@ -3,13 +3,11 @@
  
 /* Estilos generales */
 
-{
+*{
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
 }
-
-
 
 body {
   font-family: Arial, sans-serif;
@@ -27,26 +25,24 @@ container {
 
 /* Estilos del menú de navegación */
 
-ul{
+ul {
  display: flex;
  justify-content: space-evenly;
  list-style: none;
- 
  background-color: antiquewhite;
  padding: 15px 0px;
 
 
-
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 
 /* Estilos de los encabezados */
 
-h1,h3,h4,h2 {
+h1,h3,h4,h2,h5 {
   text-align: center;
   margin-top: 30px;
 
@@ -63,6 +59,8 @@ img {
   margin-top: 30px;
 }
 
+img 
+
 /* Estilos de los párrafos */
 
 p {
@@ -70,20 +68,7 @@ p {
   margin-top: 30px;
 }
 
-
-/* Estilos del formulario de contacto */
-
-.formulario {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #eee9ee8c;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-
-label {
+.label {
   display: block;
   margin-bottom: 10px;
 }
@@ -103,8 +88,6 @@ label {
 .contenedor a{
   font-size: 40px;
 }
-
-/*arreclos*/
 
 
 /*header superior*/
@@ -145,6 +128,57 @@ label {
 }
 
 .instagram{
-  color: #eee9e98c;
+  color: #770a618c;
+
 }
+
+/*formulario registro*/
+
+ .form-register {
+   width: 300px;
+   background: #fd1ed060;
+   padding: 20px;
+   margin: auto;
+   margin-top: auto;
+   border-radius: 5px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+   
+ }
+ .form-register h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+
+ }
  
+ .controls {
+   width: 100%;
+   background: #ece7ee8c;
+   padding: 8px;
+   border-radius: 4px;
+   margin-bottom: 8px;
+   border: 1px  solid  rgb(0, 174, 255) ;
+   font-family:18px;
+   
+ }
+
+ .form-register p {
+  height: 40px ;
+  text-align: center;
+  font-size: 18px;
+ }
+
+ .form-register a {
+  color:white;
+  text-decoration: none;
+
+ }
+ .form-register .botons {
+  width: 100%;
+  background: #be3d738c;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+ }
